@@ -17,6 +17,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/counter">Counter</Link></li>
           </ul>
         </nav>
       
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/counter" element={<Counter />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
